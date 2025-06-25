@@ -349,6 +349,9 @@ nav :hover {
     padding: 9px 10px;
     border-radius: 4px;
 }
+.swiper-wrapper {
+    padding: 0 25px;
+}
 
 /* section2 end */
 .section6 {
@@ -535,9 +538,9 @@ nav :hover {
         display: none;
         flex-direction: column;
         /* background-color: rgba(0, 0, 0, 0.6); */
-        background-color: #4a60a1;
+        background-color: #2c3a61;
         position: absolute;
-        top: 61px;
+        top: 18%;
         right: 0;
         width: 100%;
         /* padding: 16px; */
