@@ -105,6 +105,8 @@ hr {
     /* background-attachment: fixed; */
     background-position: center;
     background-size: cover;
+    position: relative;
+
     margin: 0;
     /* position: absolute; */
 }
@@ -150,12 +152,15 @@ hr {
     display: flex;
     flex-direction: column;
     position: absolute;
-    top: 87%;
+    /* top: 100%; */
+    top: 83%;
     /* left: 241px; */
-    left: 150px;
-    right: 150px;
+    left: 50%;
+    translate: -50%;
+    /* right: 150px; */
     align-items: center;
     gap: 5px;
+    bottom: 12%;
 }
 .bottom-sctn :hover {
     /* box-shadow: 0 3px 6px rgba(207, 211, 214, 1); */
@@ -880,7 +885,7 @@ p {
     } */
     .bottom-sctn {
         /* top: 81%; */
-        top: 42%;
+        /* top: 66%; */
     }
     .container2 nav a {
         padding: 9px 12px;
@@ -976,7 +981,7 @@ p {
     }
     .bottom-sctn {
         /* top: 85%; */
-        top: 68%;
+        /* top: 68%; */
     }
     .section1 {
         padding: 25px;
@@ -1056,9 +1061,9 @@ p {
 }
 @media (max-width: 642px) {
     .bottom-sctn {
-        top: 65%;
-        left: 100px;
-        right: 100px;
+        /* top: 65%; */
+        /* left: 50px; */
+        /* right: 50px; */
     }
     header .icon {
         gap: 10px;
@@ -1250,9 +1255,9 @@ p {
 }
 @media (max-width: 432px) {
     .bottom-sctn {
-        top: 66%;
-        left: 10px;
-        right: 10px;
+        /* top: 66%; */
+        /* left: 10px; */
+        /* right: 10px; */
     }
     /* .sctn2 h1 {
         font-size: 30px;
@@ -1279,11 +1284,11 @@ p {
 }
 @media (max-width: 392px) {
     .bottom-sctn {
-        top: 70%;
+        /* top: 70%; */
     }
 }
 @media (max-width: 377px) {
     .bottom-sctn {
-        top: 83%;
+        /* top: 83%; */
     }
 }
