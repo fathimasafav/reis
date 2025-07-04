@@ -131,8 +131,9 @@ hr {
     /* padding-top: 50px; */
     position: absolute;
     left: 50%;
-    right: 50%;
-    transform: translate(-50%, 50%);
+    /* right: 50%; */
+    transform: translate(-50%, -50%);
+    top:50%;
 }
 .middle-sctn p {
     max-width: 60%;
@@ -792,8 +793,8 @@ p {
 .logos {
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    gap: 16px;
+    justify-content: space-between;
+    /* gap: 16px; */
 }
 .logos div {
     padding: 10px;
@@ -902,8 +903,9 @@ p {
     .middle-sctn {
         /* padding-top: 50px; */
         left: 50%;
-        right: 50%;
-        transform: translate(-50%, 50%);
+        top:50%;
+        /* right: 50%; */
+        transform: translate(-50%, -50%);
     }
 
     .middle-sctn p {
@@ -956,7 +958,8 @@ p {
         /* background-color: rgba(0, 0, 0, 0.6); */
         background-color: #3c445c;
         position: absolute;
-        top: 18%;
+        /* top: 18%; */
+        top:20%;
         right: 0;
         width: 100%;
         /* padding: 16px; */
