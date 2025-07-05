@@ -232,6 +232,7 @@ nav :hover {
 }
 .image-cont img {
     width: 100%;
+    /* object-fit: contain; */
 }
 .car1,
 .bathtub,
@@ -301,7 +302,7 @@ nav :hover {
     background-color: white;
     border-radius: 4px;
     gap: 23.25px;
-    padding: 8px;
+    padding: 20px;
     align-items: center;
     /* max-width: fit-content; */
     position: absolute;
@@ -319,7 +320,7 @@ nav :hover {
     background-color: white;
     border-radius: 4px;
     gap: 23.25px;
-    padding: 8px;
+    padding: 20px;
     /* max-width: fit-content; */
     position: absolute;
     bottom: 83px;
@@ -520,6 +521,7 @@ nav :hover {
     }
     .section2 .image-cont img {
         min-height: 400px;
+        
     }
     .texts {
         /* gap: 16px; */

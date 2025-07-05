@@ -156,14 +156,14 @@ hr {
     flex-direction: column;
     position: absolute;
     /* top: 100%; */
-    top: 83%;
+    top: 88%;
     /* left: 241px; */
     left: 50%;
     translate: -50%;
     /* right: 150px; */
     align-items: center;
     gap: 5px;
-    bottom: 12%;
+    /* bottom: 12%; */
 }
 .bottom-sctn :hover {
     /* box-shadow: 0 3px 6px rgba(207, 211, 214, 1); */
@@ -195,10 +195,11 @@ hr {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    width: 100%;
+    width: 1000px;
     background-color: white;
     border-radius: 5px;
-    position: relative;
+
+    /* position: relative; */
     padding: 20px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* X, Y, blur, color */
     transition: box-shadow 0.3s ease;
@@ -331,6 +332,9 @@ p {
     transform: translate(-50%, -50%);
     font-size: 16px;
     font-weight: 500;
+}
+.grids a {
+    text-decoration: none;
 }
 
 .grids button {
@@ -500,9 +504,21 @@ p {
     display: flex;
     flex-direction: column;
     gap: 16px;
+    /* font-size: 21px; */
+    /* font-weight: 400; */
+}
+.para p{
+    font-size: 21px;
+    font-weight: 400;
 }
 .para .p1 {
-    color: blue;
+    color: #4A60A1;
+    font-size: 20px;
+    font-weight: 600;
+}
+.pics p{
+    font-size: 17px;
+    font-weight: 400;
 }
 .cont1 {
     padding-left: 11px;
@@ -560,7 +576,7 @@ p {
 
 .section3 button {
     display: flex;
-    background-color: blueviolet;
+    background-color:#4A60A1;
     color: white;
     padding: 12px 24px;
     border: none;
@@ -624,7 +640,9 @@ swiper-slide {
 }
 swiper-slide img {
     display: block;
+    max-width: 259px;
     /* width: 100%; */
+    max-height: 355px;
     /* height: 100vh; */
     object-fit: cover;
 }
@@ -683,7 +701,7 @@ swiper-slide:hover .view-btn {
     background-position: center;
     background-size: cover;
     width: 100%;
-    height: 100vh;
+    height: 500px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -696,6 +714,7 @@ swiper-slide:hover .view-btn {
 p {
     margin: 0;
 }
+
 .sctn5 {
     display: flex;
     flex-direction: column;
@@ -945,6 +964,7 @@ p {
     .bottom-sctn .down {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
+
     }
 }
 
@@ -976,6 +996,7 @@ p {
     }
     .bottom-sctn .down {
         gap: 10px;
+        width:700px
     }
 }
 
@@ -991,12 +1012,19 @@ p {
         /* top: 85%; */
         /* top: 68%; */
     }
+    .bottom-sctn .down{
+        width: 600px;
+    }
     .section1 {
         padding: 25px;
     }
 
     .section2 {
         padding: 25px;
+    }
+    .box-container{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
     }
     .box h2 {
         font-size: 16px;
@@ -1007,7 +1035,14 @@ p {
     .box button {
         font-size: 12px;
     }
-
+    .section3{
+        padding: 50px 25px;
+    }
+    /* section3 */
+    /* .card-rows{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    } */
     .section6 {
         padding: 25px;
     }
@@ -1122,6 +1157,7 @@ p {
         /* text-align: center; */
         /* max-width: fit-content; */
         /* justify-content: center; */
+        width:500px;
     }
     /* section1 */
     header .container {
@@ -1168,6 +1204,8 @@ p {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
     }
+    
+    
     .section6 {
         display: flex;
         flex-direction: column;
@@ -1179,6 +1217,9 @@ p {
     .sctn3 p {
         font-size: 17px;
         max-width: 80%;
+    }
+    .section4 .down{
+        padding-left: 25px;
     }
     .sctn6 {
         display: flex;
@@ -1261,11 +1302,21 @@ p {
         padding: 9px;
     } */
 }
+@media (max-width: 555px) {
+    .bottom-sctn .down{
+        width: 400px;
+    }
+
+}
+
 @media (max-width: 432px) {
     .bottom-sctn {
         /* top: 66%; */
         /* left: 10px; */
         /* right: 10px; */
+    }
+    .bottom-sctn .down{
+        width:300px;
     }
     /* .sctn2 h1 {
         font-size: 30px;
